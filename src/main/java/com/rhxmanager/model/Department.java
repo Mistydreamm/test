@@ -58,8 +58,6 @@ public class Department {
         return "Department{" +
                 "id_department=" + id_department +
                 ", departmentName='" + departmentName + '\'' +
-                ", manager=" + manager +
-                ", employees=" + employees +
                 '}';
     }
 }

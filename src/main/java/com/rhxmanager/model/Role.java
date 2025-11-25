@@ -44,7 +44,6 @@ public class Role {
         return "Role{" +
                 "id_role=" + id_role +
                 ", roleName='" + roleName + '\'' +
-                ", employees=" + employees +
                 '}';
     }
 }

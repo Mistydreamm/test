@@ -62,12 +62,12 @@ public class Project {
         this.employees = employees;
     }
     public void addEmployee(Employe employee) {
-        this.employees.add(employee);       // Ajoute l'employé à la liste du projet
-        employee.getProjects().add(this);    // ET ajoute ce projet à la liste de l'employé
+        this.employees.add(employee);
+        employee.getProjects().add(this);
     }
     public void removeEmployee(Employe employee) {
-        this.employees.remove(employee);     // Retire l'employé de la liste du projet
-        employee.getProjects().remove(this);  // ET retire ce projet de la liste de l'employé
+        this.employees.remove(employee);
+        employee.getProjects().remove(this);
     }
 
     @Override
@@ -76,8 +76,6 @@ public class Project {
                 "id_project=" + id_project +
                 ", projectName='" + projectName + '\'' +
                 ", state=" + state +
-                ", projectLead=" + projectLead +
-                ", employees=" + employees +
                 '}';
     }
 

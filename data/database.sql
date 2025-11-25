@@ -1,5 +1,5 @@
-CREATE DATABASE rhxmanager;
-use rhxmanager;
+CREATE DATABASE rhxmanagerspring;
+use rhxmanagerspring;
 
 DROP TABLE IF EXISTS Employe_Role;
 DROP TABLE IF EXISTS Employe_Project;
@@ -82,7 +82,7 @@ CREATE TABLE Employe_Role (
 ) ENGINE=InnoDB;
 
 -- username : "aze" | pwd : "aze" --
-INSERT INTO Employe (lastName, firstName, grade, jobName, salary, username, password, department_id) VALUES ('lastName', 'firstName', 'N/A', 'Test Account', 1000.00, 'aze', 'sTLME1aUWZBbIxEMXgiexA==:PDn+ogaCEHASt85SRpvkOlSq6QM2dU49eP4dQaqcgww=', NULL);
+INSERT INTO Employe (lastName, firstName, grade, jobName, salary, username, password, department_id) VALUES ('lastName', 'firstName', 'N/A', 'Test Account', 1000.00, 'aze', '$2a$10$lflri/EYxKahRbiTHwUZZ.JlW8Z7iJsqLKyea27kw4ewK6OP3Rkxu', NULL);
 
 INSERT INTO Role (roleName) VALUES ('ADMIN');
 INSERT INTO Role (roleName) VALUES ('EMPLOYE');
